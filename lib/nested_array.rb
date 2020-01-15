@@ -54,8 +54,8 @@ end
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
-  assembled_matrix[1][1] = "Potatoes"
-  return matrix[row][column]
+  #assembled_matrix[1][1] = "Potatoes"
+  return matrix[column][row]
 end
 
 def matrix_update(matrix, row, column, new_value)
